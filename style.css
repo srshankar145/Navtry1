@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(206, 206, 8);
+}
+
+header {
+  background-color: cadetblue;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav {
+  background-color: coral;
+  height: 90%;
+  width: 98%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  background-color: burlywood;
+  height: 80%;
+  width: 15%;
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navlinks {
+  background-color: burlywood;
+  height: 80%;
+  width: 60%;
+  margin-right: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
